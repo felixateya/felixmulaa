@@ -42,3 +42,16 @@ single_profile_card.forEach((btn, index) => {
         });
     });
 });
+
+document.querySelector(".project-card-2").onclick = function() {
+    // Create a new anchor element
+    const link = document.createElement('a');
+            
+    // Set the URL and target attributes
+    link.href = 'https://conceptplc.vercel.app/';
+    link.target = '_blank';
+
+    // Simulate a click on the link
+    link.click();
+    
+}
